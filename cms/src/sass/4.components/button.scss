@@ -1,0 +1,109 @@
+.custom-button2 {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    background: linear-gradient(45deg, #6a11cb, #9f25fc);
+    color: $colour-white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    background-size: 200%;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-position 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    box-shadow: 0 10px 20px rgba(158, 33, 225, 0.4), 0 20px 40px rgba(243, 7, 255, 0.2);
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        background-position: 100% 0;
+        box-shadow: 0 15px 30px rgba(252, 92, 255, 0.5), 0 25px 50px rgba(153, 0, 255, 0.3);
+    }
+}
+
+.custom-button3 {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+    background: linear-gradient(45deg, #40ff00, #11500d);
+    color: $colour-white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    background-size: 200%;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-position 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    box-shadow: 0 10px 20px rgba(33, 225, 55, 0.4), 0 20px 40px rgba(7, 255, 114, 0.2);
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        background-position: 100% 0;
+        box-shadow: 0 15px 30px rgba(46, 232, 13, 0.5), 0 25px 50px rgba(106, 255, 6, 0.3);
+    }
+}
+.custom-button3:disabled {
+    background-color: #11500d;
+    &:hover{
+        cursor: not-allowed;
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
+
+.loadMoreButton{
+    padding: 8px 5px ;
+    max-width: 120px;
+    color: $colour-white !important;
+    text-align: center;
+    background-color: $colour-blue !important;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: .9em;
+    &:hover{
+        background-color: $colour-dark-blue !important;
+        cursor: pointer;
+        color: $colour-white;
+    }
+}
+
+.loadMoreButton2{
+    padding: 8px 10px;
+    &:hover{
+        color: $colour-white !important;
+    }
+}
+.borderButton{
+    padding: 8px 5px;
+    max-width: 120px;
+    color: $colour-blue !important;
+    text-align: center;
+    border: 1px solid $colour-blue !important;
+    background-color: inherit !important;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: .9em;
+    &:hover{
+        background-color: $colour-transparent-blue !important;
+        cursor: pointer;
+        a{
+            text-decoration: underline !important;
+        }
+    }
+}
+.blue-button{
+    color: $colour-blue !important;
+    border-bottom: 1px solid $colour-blue !important;
+}
+.remove-button{
+    background-color: $colour-red;
+    border: none;
+    border-radius: 5px;
+    transition: scale .5s smooth;
+    color: $colour-white;
+    &:hover{
+        scale: 1.1;
+        
+    }
+}

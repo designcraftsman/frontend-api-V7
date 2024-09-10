@@ -1,0 +1,21 @@
+// Custom.scss
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// utils
+@import "../sass/2.utils/variables.scss";
+@import "../sass/2.utils/letter-spacing.scss";
+
+// theme 
+@import "../sass/6.themes/themes.scss";
+// base
+@import "../sass/1.base/base.scss";
+// Components
+@import "../sass/4.components/sidebar.scss";
+@import "../sass/4.components/table.scss";
+@import "../sass/4.components/activity-feed.scss";
+@import "../sass/4.components/statCard.scss";
+@import "../sass/4.components/button.scss";
+// Pages
+@import "../sass/5.pages/dashboard.scss";
+@import "../sass/5.pages/SignIn.scss";

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body{
+    //font-family: 'Montserrat', sans-serif;
+    //font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em;
+    letter-spacing: .5px;
+    color: $colour-black;
+    background-color: $colour-white !important;
+    .underline{
+        text-decoration: underline !important;
+    }
+    a, a:hover{
+        text-decoration: none !important;
+        color: inherit !important;
+    }
+    .card{
+        background-color: $colour-white;
+    }
+    ul {
+        list-style: none;
+    }
+    .camera-previewImg-button{
+        background-color: $colour-transparent-grey;
+    }
+    .text-blue{
+        color: $colour-blue;
+    }
+    .content {
+        background: $colour-white;
+        margin-left: 200px;
+        padding: 20px;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+    .sign-in-content{
+        background: $colour-white;
+        padding: 20px;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+    .dropdown-menu {
+        min-height: 60px;
+        min-width: 100%;
+        position: absolute; 
+        top: 100%;
+        left: 0; 
+        z-index: 1000; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        .dropdown-item{
+          min-height: 60px;
+        }
+      }
+    .vh-90{
+        height: 90vh;
+    }
+}

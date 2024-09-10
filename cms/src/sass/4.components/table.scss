@@ -1,0 +1,112 @@
+.asset-table-container {
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    color: $colour-white;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+.add-asset-btn,
+.report-btn {
+    background-color: #338aff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-asset-btn:hover,
+.report-btn:hover {
+    background-color: #2877e6;
+}
+
+.asset-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.asset-table th,
+.asset-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: .7em;
+}
+
+.asset-table th {
+    background-color: #2d4b63;
+}
+.asset-table tr {
+    background-color: $colour-light-gray2;
+    color: $colour-black;
+}
+.asset-table tr {
+    a{
+        padding: 5px;
+        border: 2px solid $colour-black !important; 
+        border-color: $colour-black !important;
+    }
+}
+
+.asset-table tr:nth-child(2n) {
+    background-color: #2a3a4b;
+    color: $colour-white;
+    a{
+        padding: 5px;
+        border: 2px solid $colour-white !important; 
+        border-color: $colour-white;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.page-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: .7em;
+}
+
+.page-controls button {
+    background-color: #338aff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.page-controls button:hover {
+    background-color: #2877e6;
+}
+
+.page-controls span {
+    color: $colour-black;
+}
+
+.select-control {
+    background-color: #2d4b63;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: $colour-white;
+    cursor: pointer;
+}
+
+.select-control:hover {
+    background-color: #24364b;
+}

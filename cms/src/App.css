@@ -1,0 +1,10 @@
+/* src/App.css */
+.app {
+  display: flex;
+}
+
+.app-content {
+  margin-left: 250px; /* Adjust according to the width of your sidebar */
+  padding: 1rem;
+  width: calc(100% - 250px); /* Adjust according to the width of your sidebar */
+}
